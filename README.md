@@ -3,7 +3,7 @@
 あまてくハンズオン勉強会参考Github
 
 ## 環境構築・最初にやって欲しいこと
-1. `cd 自分の開発物をまとめているディレクトリ`
+1. `cd 自分の開発物をまとめているディレクトリ名`
 2. `npx create-next-app zyankengame`
 3. `Githubでzyankengameという名前のリボジトリをReadmeを作らずに作成`
 4. `二段目のコマンドをコピーし、vscodeに戻り、zyankengameのターミナルにペースト`
