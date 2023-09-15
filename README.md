@@ -1,3 +1,33 @@
+# じゃんけんゲームを作りながらRecoilに入門してみよう！！
+
+あまてくハンズオン勉強会参考Github
+
+## 環境構築・最初にやって欲しいこと
+1. `cd 自分の開発物をまとめているディレクトリ`
+2. `npx create-next-app zyankengame`
+3. `Githubでzyankengameという名前のリボジトリをReadmeを作らずに作成`
+4. `二段目のコマンドをコピーし、vscodeに戻り、zyankengameのターミナルにペースト`
+5. `npm run dev`で最初のNext.jsの画面が出てこればOK
+
+## Branch strategy
+- 機能開発: features-ブランチ名
+
+## Commit message
+```shell
+feat: 新しい機能
+fix: バグの修正
+docs: ドキュメントのみの変更
+style: 空白、フォーマット、セミコロン追加など
+refactor: 仕様に影響がないコード改善(リファクタ)
+perf: パフォーマンス向上関連
+test: テスト関連
+chore: ビルド、補助ツール、ライブラリ関連
+```
+```shell
+feat: 〇〇なため、△△を追加
+ex) 記事の分類ができないため、タグ機能を追加
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
